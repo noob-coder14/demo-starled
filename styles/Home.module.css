@@ -1,0 +1,37 @@
+.main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../static/BG.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+}
+
+.title {
+    font-size: 2em;
+    color: #cdac5a;
+}
+
+.date {
+    font-size: 6em;
+}
+
+.line {
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.share-btn {
+    line-height: 24px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 99px;
+    color: #353945;
+    background-color: #ebcd81;
+    cursor: pointer;
+}

@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.colon {
+    margin: 0px 6px;
+    font-size: 1.5em;
+}
+
+.countdown-item {
+    text-align: center;
+    padding: 22px 12px;
+    background: rgba(119, 126, 144, 0.18);
+    backdrop-filter: blur(80px);
+    margin: 20px 0px;
+    border-radius: 8px;
+    width: 101.5px;
+    height: 84px;
+}
+
+
+
+.countdown-item-time {
+    font-size: 1.6em;
+    line-height: 100%;
+}
+
+.countdown-item-description {
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 600px) {
+    .countdown-item {
+        width: 80px;
+        height: 66px;
+        padding: 16px 12px;
+    }
+}
